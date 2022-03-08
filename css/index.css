@@ -5,18 +5,28 @@
    /* box-sizing est appliqué à tous les éléments */
    }
 
+header {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    margin: 3%;
+    width: 7%;
+}
+
 #nav {
     text-align: right;
 }
 
 #nav ul {
-    display: flex;
-    justify-content: flex-end;
+    display: block;
     display: inline-block;
     list-style-type: none;
 }
 
 #nav li {
+    
     float: left;
     padding: 2px 5px;
 }
