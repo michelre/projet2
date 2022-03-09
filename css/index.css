@@ -5,9 +5,17 @@
    /* box-sizing est appliqué à tous les éléments */
    }
 
+   @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+}
+
 header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 #logo {
@@ -19,6 +27,17 @@ header {
     text-align: right;
 }
 
+a:link, a:visited {
+    color: grey;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: overline;
+    text-decoration-color: #0065FC;
+    color: #0065FC;
+}
+
 #nav ul {
     display: block;
     display: inline-block;
@@ -26,7 +45,28 @@ header {
 }
 
 #nav li {
-    
     float: left;
     padding: 2px 5px;
+}
+
+#menu {
+    background-color: #F2F2F2;
+}
+
+#menulist {
+    display: flex;
+}
+
+#menulist img {
+    width: 60%;
+}
+
+
+footer {
+    display: flex;
+    background-color: #F2F2F2;
+}
+
+.footerpart {
+    width: 33%;
 }
