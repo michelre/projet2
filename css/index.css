@@ -33,20 +33,24 @@ a:link, a:visited {
 }
 
 a:hover {
-    text-decoration: overline;
-    text-decoration-color: #0065FC;
     color: #0065FC;
 }
 
 #nav ul {
-    display: block;
-    display: inline-block;
     list-style-type: none;
 }
 
 #nav li {
-    float: left;
     padding: 2px 5px;
+    display: inline-block;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-right: 50px;
+    border-top: 4px solid transparent;
+}
+
+#nav li:hover {
+    border-top: 2px solid #0065FC;
 }
 
 #menu {
@@ -61,6 +65,21 @@ a:hover {
     width: 60%;
 }
 
+#bottomitems {
+    align-content: flex-end;
+}
+
+#asidemenu {
+    background-color: #F2F2F2;
+}
+
+.sidelist {
+    display: flex;
+}
+
+#sidelist img {
+    width: 10%;
+}
 
 footer {
     display: flex;
