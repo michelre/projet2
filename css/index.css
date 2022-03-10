@@ -10,6 +10,7 @@
 body {
     font-family: 'Raleway', sans-serif;
     background-color: white;
+    margin-top: 0px;
 }
 
 header {
@@ -19,8 +20,8 @@ header {
 }
 
 #logo {
-    margin: 3%;
-    width: 7%;
+    margin: 10px 0px 0px 60px;
+    width: 6%;
 }
 
 #nav {
@@ -28,7 +29,7 @@ header {
 }
 
 a:link, a:visited {
-    color: grey;
+    color: black;
     text-decoration: none;
 }
 
@@ -37,20 +38,21 @@ a:hover {
 }
 
 #nav ul {
+    margin-top: 0px;
     list-style-type: none;
 }
 
 #nav li {
     padding: 2px 5px;
     display: inline-block;
-    padding-top: 60px;
+    padding-top: 50px;
     padding-bottom: 60px;
     margin-right: 50px;
     border-top: 4px solid transparent;
 }
 
 #nav li:hover {
-    border-top: 2px solid #0065FC;
+    border-top: 4px solid #0065FC;
 }
 
 #menu {
