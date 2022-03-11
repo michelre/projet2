@@ -13,6 +13,30 @@ body {
     margin-top: 0px;
 }
 
+#littleinfo h4 {
+    margin-bottom: 0px;
+}
+
+#littleinfo h6 {
+    margin: 10px 0px;
+}
+
+#filter {
+    display: flex;
+    align-content: flex-end;
+    flex-direction: column;
+}
+
+#filterbar {
+    list-style-type: none;
+    text-align: left;
+}
+
+#filter li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
 header {
     display: flex;
     align-items: center;
