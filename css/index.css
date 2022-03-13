@@ -80,44 +80,73 @@ a:hover {
     margin-right: 50px;
 }
 
+#lodging {
+    display: flex;
+}
+
 .menu {
     background-color: #F2F2F2;
+    display: block;
+    width: 80%;
 }
 
 #menulist {
     display: flex;
     list-style-type: none;
-    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.bottomitems {
-    display: inline-block;
-    align-self: flex-end;
+.menuitems {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 30%;
+    height: 20%;
+    margin: 10px 0px;
+    padding: 5px 5px;
+    border-radius: 20px;
 }
 
 #menulist img {
     width: 60%;
 }
 
-#bottomitems {
-    align-content: flex-end;
+#showmore {
+    align-self: flex-end;
+    
 }
 
 .asidemenu {
     background-color: #F2F2F2;
+    display: block;
+    width: 40%;
 }
 
 #sidelist {
     display: flex;
+    list-style-type: none;
+    justify-content: space-around;
     flex-direction: column;
 }
 
+.sidelistitems {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 30%;
+    height: 20%;
+    margin: 10px 0px;
+    padding: 5px 5px;
+    border-radius: 20px;
+}
+
 #sidelist img {
-    width: 10%;
+    width: 90%;
 }
 
 #activity {
-    background-color: #F2F2F2;
+    display: flex;
 }
 
 #activitylist {
@@ -137,4 +166,5 @@ footer {
 
 .footerpart {
     width: 33%;
+    margin-left: 30px;
 }
