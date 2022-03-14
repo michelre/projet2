@@ -56,12 +56,40 @@ a:hover {
     border-top: 4px solid #0065FC;
 }
 
+#littleinforesearch {
+    display: flex;
+    flex-direction: row;
+    height: 35px;
+}
+
+#littleinfo label {
+    width: 6%;
+    border-radius: 0px 20px 20px 0px;
+    padding-left: 10px;
+    background-color: #0065FC;
+}
+
+.fa-location-dot {
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #F2F2F2;
+    border-radius: 20px 0px 0px 20px;
+}
+
+#littleinfo textarea {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
 #littleinfo h4 {
     margin-bottom: 0px;
+    padding-left: 30px;
 }
 
 #littleinfo h6 {
     margin: 10px 0px;
+    padding-left: 30px;
 }
 
 #filter {
@@ -78,6 +106,11 @@ a:hover {
 #filter li {
     display: inline-block;
     margin-right: 50px;
+}
+
+.fa-money-bill-wave {
+    background-color: #0065FC;
+    border-radius: 90px;
 }
 
 #lodging {
