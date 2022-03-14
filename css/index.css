@@ -58,15 +58,16 @@ a:hover {
 
 #littleinforesearch {
     display: flex;
-    flex-direction: row;
     height: 35px;
+    flex-direction: row;
 }
 
 #littleinfo label {
     width: 6%;
-    border-radius: 0px 20px 20px 0px;
-    padding-left: 10px;
+    border-radius: 0px 10px 10px 0px;
     background-color: #0065FC;
+    color: white;
+    text-align: center;
 }
 
 .fa-location-dot {
@@ -74,12 +75,17 @@ a:hover {
     padding-left: 10px;
     padding-right: 10px;
     background-color: #F2F2F2;
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 10px 0px 0px 10px;
 }
 
 #littleinfo textarea {
     margin-left: 0px;
     margin-right: 0px;
+    resize: none;
+    border-color: #F2F2F2;
+    white-space: normal;
+    text-align: justify;
+    text-align-last: center;
 }
 
 #littleinfo h4 {
@@ -93,6 +99,7 @@ a:hover {
 }
 
 #filter {
+    padding-top: 20px;
     display: flex;
     align-content: flex-end;
     flex-direction: column;
@@ -109,6 +116,29 @@ a:hover {
 }
 
 .fa-money-bill-wave {
+    width: 35px;
+    height: 35px;
+    background-color: #0065FC;
+    border-radius: 20px;
+}
+
+.fa-child {
+    width: 35px;
+    height: 35px;
+    background-color: #0065FC;
+    border-radius: 90px;
+}
+
+.fa-heart {
+    width: 35px;
+    height: 35px;
+    background-color: #0065FC;
+    border-radius: 90px;
+}
+
+.fa-dog {
+    width: 35px;
+    height: 35px;
     background-color: #0065FC;
     border-radius: 90px;
 }
