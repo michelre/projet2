@@ -107,7 +107,7 @@ a:hover {
 
 #filterbar {
     list-style-type: none;
-    text-align: left;
+    
 }
 
 #filter li {
@@ -115,32 +115,40 @@ a:hover {
     margin-right: 50px;
 }
 
+#filter h6 {
+    padding-left: 30px;
+}
+
 .fa-money-bill-wave {
     width: 35px;
     height: 35px;
     background-color: #0065FC;
     border-radius: 20px;
+    text-align: center;
 }
 
 .fa-child {
     width: 35px;
     height: 35px;
     background-color: #0065FC;
-    border-radius: 90px;
+    border-radius: 20px;
+    text-align: center;
 }
 
 .fa-heart {
     width: 35px;
     height: 35px;
     background-color: #0065FC;
-    border-radius: 90px;
+    border-radius: 20px;
+    text-align: center;
 }
 
 .fa-dog {
     width: 35px;
     height: 35px;
     background-color: #0065FC;
-    border-radius: 90px;
+    border-radius: 20px;
+    text-align: center;
 }
 
 #lodging {
@@ -151,6 +159,7 @@ a:hover {
     background-color: #F2F2F2;
     display: block;
     width: 80%;
+    padding-left: 30px;
 }
 
 #menulist {
@@ -210,6 +219,7 @@ a:hover {
 
 #activity {
     display: flex;
+    padding-left: 30px;
 }
 
 #activitylist {
