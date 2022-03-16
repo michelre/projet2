@@ -127,6 +127,7 @@ a:hover {
     display: flex;
     align-items: center;
     padding-left: 20px;
+    margin-bottom: 0;
 }
 
 #filterbar h5 {
@@ -165,9 +166,23 @@ a:hover {
     color: #0065FC;
 }
 
-#filter h6 {
-    margin-top: 10px;
-    padding-left: 30px;
+.info {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding-left: 20px;
+}
+
+#infoimg {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #F2F2F2;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0065FC;
+    margin-right: 10px;
 }
 
 #lodging {
