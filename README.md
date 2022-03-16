@@ -1,4 +1,8 @@
 # Projet2
 Transform a model in web site using html and css
 
-mettre les animations sur les filtres et sur la researchbar ect
+change the h6 under the filterbar
+
+change the h6 in littleinfo
+
+change animation in the nav ?
