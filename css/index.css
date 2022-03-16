@@ -44,6 +44,7 @@ a:hover {
 }
 
 #nav li {
+    position: relative;
     padding: 2px 5px;
     display: inline-block;
     padding-top: 50px;
@@ -52,40 +53,57 @@ a:hover {
     border-top: 4px solid transparent;
 }
 
-#nav li:hover {
-    border-top: 4px solid #0065FC;
+#nav li::after {
+    transition: width .250s linear;
+    content: '';
+    position: absolute;
+    height: 4px;
+    background : #0065FC;
+    top: -4px;
+    left: -10%;
+    width: 0;
+}
+
+#nav li:hover::after {
+    width: 115%;
 }
 
 #littleinforesearch {
     display: flex;
     height: 35px;
     flex-direction: row;
+    padding: 0 24px;
 }
 
-#littleinfo label {
-    width: 6%;
-    border-radius: 0px 10px 10px 0px;
+#littleinforesearch .icon {
+    background-color: #F2F2F2;
+    border-radius: 10px 0 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+}
+
+#littleinfo input {
+    border: 1px solid #F2F2F2;
+    border-left: 0;
+    border-right: 0;
+    padding-left: 8px;
+}
+
+#littleinfo input::placeholder {
+    color: black;
+    font-weight: bold;
+}
+
+#littleinfo button {
     background-color: #0065FC;
     color: white;
-    text-align: center;
-}
-
-.fa-location-dot {
-    margin-left: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: #F2F2F2;
-    border-radius: 10px 0px 0px 10px;
-}
-
-#littleinfo textarea {
-    margin-left: 0px;
-    margin-right: 0px;
-    resize: none;
-    border-color: #F2F2F2;
-    white-space: normal;
-    text-align: justify;
-    text-align-last: center;
+    border: none;
+    padding: 0 12px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: bold;
 }
 
 #littleinfo h4 {
@@ -99,56 +117,57 @@ a:hover {
 }
 
 #filter {
-    padding-top: 20px;
+    padding-top: 0px;
     display: flex;
     align-content: flex-end;
     flex-direction: column;
 }
 
 #filterbar {
-    list-style-type: none;
-    
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
 }
 
-#filter li {
-    display: inline-block;
-    margin-right: 50px;
+#filterbar h5 {
+    padding: 0 10px;
+    margin-right: 8px;
+}
+
+#filterbar li div {
+    width: 35px;
+    height: 35px;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0065FC;
+    margin-right: 10px;
+}
+
+#filterbar li {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    border: 2px solid #F2F2F2;
+    padding: 0 16px;
+    padding-left: 0px;
+    margin-right: 16px;
+    border-left: 0;
+    height: 35px;
+    border-radius: 20px 20px 20px 20px;
+    font-weight: bold;
+}
+
+#filterbar li:hover {
+    background-color: #F2F2F2;
+    color: #0065FC;
 }
 
 #filter h6 {
+    margin-top: 10px;
     padding-left: 30px;
-}
-
-.fa-money-bill-wave {
-    width: 35px;
-    height: 35px;
-    background-color: #0065FC;
-    border-radius: 20px;
-    text-align: center;
-}
-
-.fa-child {
-    width: 35px;
-    height: 35px;
-    background-color: #0065FC;
-    border-radius: 20px;
-    text-align: center;
-}
-
-.fa-heart {
-    width: 35px;
-    height: 35px;
-    background-color: #0065FC;
-    border-radius: 20px;
-    text-align: center;
-}
-
-.fa-dog {
-    width: 35px;
-    height: 35px;
-    background-color: #0065FC;
-    border-radius: 20px;
-    text-align: center;
 }
 
 #lodging {
