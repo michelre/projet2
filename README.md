@@ -6,3 +6,6 @@ change the h6 under the filterbar
 change the h6 in littleinfo
 
 change animation in the nav ?
+
+
+resize correctly the img in lodging part
