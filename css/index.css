@@ -291,25 +291,27 @@ a:hover {
     padding: 0px 70px;
 }
 
-#mostpopularpart {
+#mostPopularPart {
     display: flex;
     position: relative;
     flex-direction: row;
     align-content: flex-start;
 }
 
-#mostpopular {
+#mostPopular {
+    display: flex;
+    flex-direction: row;
     padding: 0 90px;
+    /*90*/
     margin: 0 0;
     padding-top: 30px;
 }
 
-.mostpopularicon {
+#mostPopularIcon {
     display: flex;
-    position: absolute;
-    align-items: center;
-    justify-content: center;
-    width: 700px;
+    align-items: flex-end;
+    align-content: flex-end;
+    padding-left: 82px;
 }
 
 .asidemenu {
