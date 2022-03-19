@@ -231,6 +231,7 @@ a:hover {
     position: relative;
     overflow: hidden;
     background-size: cover;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 6px;
 }
 
 #menuItemsImg {
@@ -350,6 +351,7 @@ a:hover {
     position: relative;
     object-fit: cover;
     overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 6px;
 }
 
 .sideItemsImg {
@@ -406,16 +408,121 @@ a:hover {
 
 #activity {
     display: flex;
+    width: 100%;
     padding-left: 30px;
 }
 
-#activitylist {
+#leftActivityList {
     display: flex;
     list-style-type: none;
-    align-items: center;
+    width: 50%;
+    justify-content: flex-end;
+    flex-wrap: wrap;
 }
 
-#activitylist img {
+#rightActivityList {
+    display: flex;
+    list-style-type: none;
+    width: 50%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.largeActivityItem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-content: flex-end;
+    border: 6px solid white;
+    background-color: white;
+    width: 350px;
+    height: 400px;
+    margin: 20px 0px;
+    padding: 0px 0px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 6px;
+}
+
+.mediumActivityItem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-content: flex-end;
+    border: 6px solid white;
+    background-color: white;
+    width: 350px;
+    height: 216px;
+    margin: 20px 0px;
+    padding: 0px 0px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 6px;
+}
+
+.smallestActivityItem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-content: flex-end;
+    border: 6px solid white;
+    background-color: white;
+    width: 350px;
+    height: 150px;
+    margin: 10px 0px;
+    padding: 0px 0px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 6px;
+}
+
+.smallActivityItem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-content: flex-end;
+    border: 6px solid white;
+    background-color: white;
+    width: 325px;
+    height: 240px;
+    margin: 20px 0px;
+    padding: 0px 0px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 6px;
+}
+
+.activityItem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-content: flex-end;
+    border: 6px solid white;
+    background-color: white;
+    width: 325px;
+    height: 240px;
+    margin: 20px 0px;
+    padding: 0px 0px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 6px;
+}
+
+#leftActivityList img {
+    width: 50%;
+}
+
+#rightActivityList img {
     width: 50%;
 }
 
