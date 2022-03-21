@@ -238,7 +238,6 @@ a:hover {
     display: flex;
     align-self: flex-start;
     width: 100%;
-    object-fit: cover;
 }
 
 #menuItemsImg img {
@@ -349,7 +348,6 @@ a:hover {
     padding: 0px 0px;
     border-radius: 20px;
     position: relative;
-    object-fit: cover;
     overflow: hidden;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 6px;
 }
@@ -359,7 +357,6 @@ a:hover {
     align-self: flex-start;
     width: 140px;
     height: 60px;
-    object-fit: cover;
 }
 
 .sideItemsImg img {
@@ -416,7 +413,7 @@ a:hover {
     display: flex;
     list-style-type: none;
     width: 50%;
-    justify-content: flex-end;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -428,16 +425,36 @@ a:hover {
     flex-wrap: wrap;
 }
 
+.activityItemImg {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+    height: 85%;
+}
+
+#activityItemImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.activityItemInfo {
+    display: flex;
+    width: 100%;
+    height: 16%;
+    margin-bottom: 26px;
+    padding: 0 18px;
+}
+
 .largeActivityItem {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    align-content: flex-end;
-    border: 6px solid white;
+    align-items: center;
     background-color: white;
     width: 350px;
     height: 400px;
-    margin: 20px 0px;
+    margin: 10px 0px;
     padding: 0px 0px;
     border-radius: 20px;
     position: relative;
@@ -451,11 +468,10 @@ a:hover {
     flex-direction: column;
     align-items: flex-end;
     align-content: flex-end;
-    border: 6px solid white;
     background-color: white;
     width: 350px;
     height: 216px;
-    margin: 20px 0px;
+    margin: 10px 0px;
     padding: 0px 0px;
     border-radius: 20px;
     position: relative;
@@ -467,9 +483,9 @@ a:hover {
 .smallestActivityItem {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
     align-content: flex-end;
-    border: 6px solid white;
+    justify-content: flex-end;
     background-color: white;
     width: 350px;
     height: 150px;
@@ -487,11 +503,10 @@ a:hover {
     flex-direction: column;
     align-items: flex-end;
     align-content: flex-end;
-    border: 6px solid white;
     background-color: white;
     width: 325px;
-    height: 240px;
-    margin: 20px 0px;
+    height: 170px;
+    margin: 10px 0px;
     padding: 0px 0px;
     border-radius: 20px;
     position: relative;
@@ -505,11 +520,10 @@ a:hover {
     flex-direction: column;
     align-items: flex-end;
     align-content: flex-end;
-    border: 6px solid white;
     background-color: white;
     width: 325px;
-    height: 240px;
-    margin: 20px 0px;
+    height: 210px;
+    margin: 10px 0px;
     padding: 0px 0px;
     border-radius: 20px;
     position: relative;
@@ -518,13 +532,13 @@ a:hover {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 6px;
 }
 
-#leftActivityList img {
+/*#leftActivityList img {
     width: 50%;
-}
+}*/
 
-#rightActivityList img {
+/*#rightActivityList img {
     width: 50%;
-}
+}*/
 
 footer {
     display: flex;
