@@ -27,7 +27,7 @@
             <form id="littleinforesearch">
                 <div class="icon">
                     <i class="fa-solid fa-location-dot"></i>
-                </div>    
+                </div>
                 <input id="research" name="research" placeholder="Marseille, France"/>
                 <button for="research">Rechercher</button>
             </form>
@@ -50,13 +50,13 @@
                 <li>
                     <div>
                         <i class="fa-solid fa-heart"></i>
-                    </div>    
+                    </div>
                     Romantique
                 </li>
                 <li>
                     <div>
                         <i class="fa-solid fa-dog"></i>
-                    </div>    
+                    </div>
                     Animaux autorisés
                 </li>
             </ul>
@@ -65,7 +65,7 @@
                     <i class="fa-solid fa-info"></i>
                 </div>
                 <h6>Plus de 500 logements sont disponibles dans cette ville</h6>
-            </section>    
+            </section>
         </div>
         <section id="lodging">
             <section class="menu">
@@ -184,14 +184,14 @@
                             <div class="sideItemsInfo">
                                 <h4>Hôtel Le soleil du matin</h4>
                                 <h5>Nuit à partir de 128 $</h5>
-                            </div>   
+                            </div>
                             <div class="sideStarRaiting">
                                 <span><i class="fa-solid fa-star"></i></span>
                                 <span><i class="fa-solid fa-star"></i></span>
                                 <span><i class="fa-solid fa-star"></i></span>
                                 <span><i class="fa-solid fa-star"></i></span>
                                 <span><i class="fa-solid fa-star"></i></span>
-                            </div> 
+                            </div>
                         </li>
                         <li class="sidelistitems">
                             <div class="sideItemsImg">
@@ -213,9 +213,9 @@
                             <div class="sideItemsImg">
                                 <img src="asset/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel Tout bleu et Blanc">
                             </div>
-                            <div class="sideItemsInfo">    
+                            <div class="sideItemsInfo">
                                 <h4>Hôtel Tout bleu et Blanc</h4>
-                                <h5>Nuit à partir de 68 $</h5>
+                                <h5>Nuit à partir de 68&euro;</h5>
                             </div>
                             <div class="sideStarRaiting">
                                 <span><i class="fa-solid fa-star"></i></span>
@@ -233,58 +233,65 @@
             <h3>Activités à Marseille</h3>
         </div>
         <div id="activity">
-            <ul id="leftActivityList">
-                <li class="largeActivityItem">
+            <div id="leftActivityList">
+                <div class="largeActivityItem">
                     <div class="activityItemImg">
                         <img src="asset/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port">
                     </div>
                     <div class="activityItemInfo">
                         <h4>Vieux Port</h4>
                     </div>
-                </li>
-                <li class="mediumActivityItem">
-                    <div class="activityItemImg">
-                        <img src="asset/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues">
+                </div>
+                <div class="activitySubContainer">
+                    <div class="mediumActivityItem">
+                        <div class="activityItemImg">
+                            <img src="asset/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues">
+                        </div>
+                        <div class="activityItemInfo">
+                            <h4>Fort de Pomègues</h4>
+                        </div>
                     </div>
-                    <div class="activityItemInfo">
-                        <h4>Fort de Pomègues</h4>
+                    <div class="smallestActivityItem">
+                        <div class="activityItemImg">
+                            <img src="asset/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Îles du Frioul">
+                        </div>
+                        <div class="activityItemInfo">
+                            <h4>Îles du Frioul</h4>
+                        </div>
                     </div>
-                </li>
-                <li class="smallestActivityItem">
-                    <div class="activityItemImg">
-                        <img src="asset/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Îles du Frioul">
-                    </div>
-                    <div class="activityItemInfo">
-                        <h4>Îles du Frioul</h4>
-                    </div>
-                </li>
-            </ul>
-            <ul id="rightActivityList">
-                <li class="largeActivityItem">
+
+                </div>
+
+            </div>
+            <div id="rightActivityList">
+                <div class="largeActivityItem">
                     <div class="activityItemImg">
                         <img src="asset/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc Nationnal des Calanques">
                     </div>
                     <div class="activityItemInfo">
                         <h4>Parc Nationnal des Calanques</h4>
                     </div>
-                </li>
-                <li class="smallActivityItem">
-                    <div class="activityItemImg">
-                        <img src="asset/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde">
+                </div>
+                <div class="activitySubContainer">
+                    <div class="smallActivityItem">
+                        <div class="activityItemImg">
+                            <img src="asset/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde">
+                        </div>
+                        <div class="activityItemInfo">
+                            <h4>Notre-Dame-de-la-Garde</h4>
+                        </div>
                     </div>
-                    <div class="activityItemInfo">
-                        <h4>Notre-Dame-de-la-Garde</h4>
+                    <div class="activityItem">
+                        <div class="activityItemImg">
+                            <img src="asset/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp">
+                        </div>
+                        <div class="activityItemInfo">
+                            <h4>Parc Longchamp</h4>
+                        </div>
                     </div>
-                </li>
-                <li class="activityItem">
-                    <div class="activityItemImg">
-                        <img src="asset/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp">
-                    </div>
-                    <div class="activityItemInfo">
-                        <h4>Parc Longchamp</h4>
-                    </div>
-                </li>
-            </ul>
+
+                </div>
+            </div>
         </div>
     <footer>
         <section class="footerpart">
